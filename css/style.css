@@ -1,0 +1,141 @@
+body {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+::selection {
+  color: inherit;
+  background: transparent;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h2 {
+  color: #c98474;
+}
+
+header {
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+}
+
+header nav {
+  background-color: rgba(0, 0, 0, 0.669);
+}
+
+header .navbar-nav .nav-link {
+  color: #fff;
+  margin: 0 15px;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+
+header .navbar-nav .nav-link:hover {
+  color: #f2d388;
+}
+
+header .home-layer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+header .home-content {
+  height: 100%;
+}
+
+header .home-content .buttons .btn {
+  color: #fff;
+  border: solid 1px #fff;
+  padding: 8px 25px;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+
+header .home-content .buttons .btn:hover {
+  background-color: #f2d388;
+}
+
+header .text p:nth-child(3) {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+header .text h1:hover {
+  transition: all 0.5s;
+}
+
+header .text h1:hover {
+  color: #fad06d;
+}
+
+/*** About Section ***/
+.about {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.before-div {
+  width: 10px;
+  height: 45px;
+  background-color: #fad06d;
+  margin-right: 20px;
+}
+
+.about .about-text-container p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.about-img-container img {
+  border-radius: 15px;
+}
+
+/*** Location Section ***/
+
+.location {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+.location .location-text-container p {
+  font-size: 1.5rem;
+}
+
+.location-img-container img {
+  border-radius: 15px;
+}
+
+/*** Baking Section ***/
+
+.baking .card-body {
+  background-color: #f2f2f288;
+}
+/*** footer Section ***/
+
+footer {
+  background-color: #403d38;
+}
+
+footer li,
+footer p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.logo-footer {
+  background-color: #353330;
+}
+
+iframe {
+  border-radius: 15px;
+}
+
+.map-bg{
+  background-image: url(../images/contact-details-map.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
